@@ -1,0 +1,3 @@
+-git
+-main body wrapper
+-fixed notes, cards, person
