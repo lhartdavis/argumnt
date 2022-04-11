@@ -1,3 +1,14 @@
--git
--main body wrapper
--fixed notes, cards, person
+
+Make new design template
+
+navbar
+  top bar
+    title
+    search
+    login name
+
+general
+    underline
+    white section
+
+	
