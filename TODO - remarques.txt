@@ -1,0 +1,22 @@
+
+
+TODO
+----
+
+Make new design template
+
+navbar
+  top bar
+    title
+    search
+    login name
+
+general
+    underline
+    white section
+
+
+Remarques
+---------
+
+-couleur bulle notifications identique à la sélection

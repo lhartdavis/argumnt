@@ -1,89 +1,85 @@
+
+/* global variables */
+:root {
+  --a : 30px;
+  --b : 20px;
+  --c : 120px;
+
+  --aside-width : 300px;
+  --footer-height : 150px
+}
+
+
 *{
     margin : 0px;
     padding : 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-aside{
-    position: relative;
-    width: 250px;
-    height:100vh;
+body{
+    background : #F6F5FA;
+}
+
+#sidebar{
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    height: 100vh;
     background: #0C1142;
-}
 
-aside h1{
-    text-align: center;
-    padding: 30px;
-    background:
-        linear-gradient(270.08deg, #00E17D 39.08%, #3456FF 71.76%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-#logo-underline{
-    border: 2px solid #3456FF;
-    width: 70%;
-    height: 0px;
-    margin: auto;
-    margin-bottom: 50px;
-}
-
-.grande-section{
-    display: block;
-    padding-left: 30px;
-    padding-bottom: 30px;;
-    color :white;
-    text-decoration: none;
-    text-transform: capitalize;
-    font-family: Hazel, Warszawa, Metropolis, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.grande-section:hover{
-    color: #3456FF;
-}
-
-ul{
-
-    list-style-type:disc;
-    display: block;
-    margin-left: 60px;
-    color :white;
-    text-decoration: none;
-    text-transform: capitalize;
-    font-family: Hazel, Warszawa, Metropolis, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-li{
-    margin-bottom: 10px;
-}
-
-li:hover{
-    color: #3456FF;
-}
-
-aside footer{
-    position: absolute; 
-    bottom: 0px; 
-    width: 100%; 
-    height: 50px; 
 }
 
 #main{
-    background-color:  white;
     position: absolute;
-    left: 250px;
-    top:0vh;
-    width: calc(100vw - 250px);
+    top: 0px;
+    left: 80px;
+    width: 100ww;
+    height: 100vh;
 }
 
-#main h1{
-    text-align: center;
-    padding: 30px;
-    background:
-        linear-gradient(270.08deg, #00E17D 39.08%, #3456FF 71.76%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-size: 3em;
+header{
+    position: relative;
+    top : 0px;
+    left: 0px;
+    height: 80px;
+    width: calc(100vw - 80px);
+    background: white;
+    box-shadow: 0px 0.5px 10px rgba(30, 36, 104, 0.15);
+}
+
+
+
+.white-pannel{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0.5px 10px rgba(30, 36, 104, 0.15);
+
+    margin: var(--white-pannel-margin);
+}
+
+aside.white-pannel{
+    position: absolute;
+    width: var(--aside-width);
+    height: calc(100vh - var(--c) - var(--b));
+    
+    right: var(--a);
+    top : var(--c);
+}
+
+section.white-pannel{
+    position: absolute;
+    width: calc(100vw - 80px - var(--b) - 2*var(--a) - 300px);
+    height: calc(100vh - var(--footer-height) - var(--c) - 2*var(--b));
+    left: var(--a);
+    top : var(--c);
+}
+
+footer.white-pannel{
+    position: absolute;
+    width: calc(100vw - 80px - var(--b) - 2*var(--a) - 300px);
+    height: var(--footer-height);
+    left: var(--a);
+    bottom : var(--b);
 }
