@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argumnt</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'style.css') }}" type="text/css">
+</head>
+<body>
+
+
+        <nav id="sidebar">
+
+
+            <img id="logo-img" src="{{ url_for('static', filename = 'img/icon-logo.png') }}" alt="logo image"/>
+
+            <img src="{{ url_for('static', filename = 'img/icon-home.png') }}" alt="icon home"/>
+            <img src="{{ url_for('static', filename = 'img/icon-scripts.png') }}" alt="icon scripts"/>
+            <img src="{{ url_for('static', filename = 'img/icon-target.png') }}" alt="icon target"/>
+            <img src="{{ url_for('static', filename = 'img/icon-review.png') }}" alt="icon review"/>
+
+        </nav>
+
+        <div id = "main">
+            <header>
+                <div id="title-wrapper">
+                    <h1>Home</h1>
+                    <hr/>
+                </div>
+                <!-- search bar and login -->
+            </header>
+
+            <!-- pannels d'infos -->
+            <section class = "white-pannel"></section>
+            <aside class = "white-pannel"></aside>
+            <footer class = "white-pannel"></footer>
+
+        </div>
+
+       
+
+</body>
+</html>

@@ -3,20 +3,14 @@
 TODO
 ----
 
-Make new design template
+-follow flask tutorial YT/web
+-in depth templating flask
+-setup different pages on urls
 
-navbar
-  top bar
-    title
-    search
-    login name
-
-general
-    underline
-    white section
+-analyse design and think about objects
+-additionnal frontend elements
 
 
 Remarques
 ---------
 
--couleur bulle notifications identique à la sélection
